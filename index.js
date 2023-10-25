@@ -20,7 +20,7 @@ app.use(
     // origin: "http://localhost:5173",
     // origin:'*',
     origin: "https://information-technology.netlify.app",
-    methods: ["POST", "GET", "DELETE", "PUT"],
+    methods: ["POST", "GET", "DELETE", "PUT","HEAD","PATCH"],
     credentials: true,
     optionSuccessStatus: 200,
   })
